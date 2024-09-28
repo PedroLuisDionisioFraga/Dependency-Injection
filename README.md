@@ -24,9 +24,13 @@ This project is a simple product management application. It allows users to add,
 1. Clone the repository
 ```bash
 git clone git@github.com:PedroLuisDionisioFraga/Dependency-Injection.git
-```
-2. Run the application
-```bash
 cd dependency-injection
-java App.java
+```
+2. Compile the Java files
+```bash
+javac -d bin *.java
+```
+3. Run the application
+```bash
+java -cp bin Main
 ```
