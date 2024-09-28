@@ -1,5 +1,4 @@
 import model.ProductModel;
-import repository.ProductRepository;
 import repository.ProductRepositoryImpl;
 import service.ProductService;
 
